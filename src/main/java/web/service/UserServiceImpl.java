@@ -9,7 +9,6 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
-@Component
 public class UserServiceImpl implements UserService {
     private final UserDao userDao;
 
